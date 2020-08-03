@@ -36,7 +36,7 @@ public class Application {
     private static boolean isClassic(String[] args) {
         return args.length > 0 && "classic".equalsIgnoreCase(args[0]);
     }
-
+    //test
     private static void runWithBootstrap() {
         ReferenceConfig<DemoService> reference = new ReferenceConfig<>();
         reference.setInterface(DemoService.class);
